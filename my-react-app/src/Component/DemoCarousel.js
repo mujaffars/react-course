@@ -4,6 +4,7 @@ import ExampleCarouselImage from './ExampleCarouselImage';
 function DemoCarousel() {
   return (
     <Carousel>
+
       <Carousel.Item>
         <ExampleCarouselImage text="First slide" />
         <Carousel.Caption>
