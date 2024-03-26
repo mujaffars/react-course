@@ -1,9 +1,14 @@
 import React from 'react'
+let guest = 0;
+let key = 0;
+function Cup({ key, guest }) {
+  return <h2>Tea cup for guest # {key} {guest}</h2>;
+}
 
 export default function Aboutus() {
-  return (
-    <div>
-      <h2>About Us page</h2>
-    </div>
-  )
+  let cups = [];
+  for (let i = 1; i <= 12; i++) {
+    cups.push(<Cup key={i} guest={i} />);
+  }
+  return cups;
 }

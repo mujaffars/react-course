@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './Component/Home';
 import Aboutus from './Component/Aboutus';
+import DemoCarousel from './Component/DemoCarousel';
 import * as ReactDOM from "react-dom/client";
+import './carousel.css';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/hello",
     element: <Aboutus />,
+  },
+  {
+    path: "/carousel",
+    element: <DemoCarousel />,
   },
 ]);
 
