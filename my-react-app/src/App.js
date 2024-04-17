@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Component/Home';
 import Aboutus from './Component/Aboutus';
 import DemoCarousel from './Component/DemoCarousel';
+import UseEffectComp from './Component/UseEffectComp';
 import * as ReactDOM from "react-dom/client";
 import './carousel.css';
 import {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/carousel",
     element: <DemoCarousel />,
+  },
+  {
+    path: "/effect",
+    element: <UseEffectComp />,
   },
 ]);
 

@@ -8,7 +8,7 @@ function DemoCarousel() {
       <Carousel.Item>
         <ExampleCarouselImage text="First slide" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3><img src="" alt='Image 1'></img></h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -28,6 +28,39 @@ function DemoCarousel() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
+
+      <Carousel.Item>
+        <ExampleCarouselImage text="Fourth slide" />
+        <Carousel.Caption>
+          <h3>Fourth slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+      <Carousel.Item>
+        <ExampleCarouselImage text="Fifth slide" />
+        <Carousel.Caption>
+          <h3>Fifth slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+      <Carousel.Item>
+        <ExampleCarouselImage text="Sixth slide" />
+        <Carousel.Caption>
+          <h3>Sixth slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
     </Carousel>
   );
 }
