@@ -15,6 +15,7 @@ import {
 } from "react-router-dom";
 import { useState } from 'react';
 import Fetchitems from './Component/Fetchitems';
+import Redux from './Component/Redux';
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
   {
     path: "/items-list",
     element: <Fetchitems />,
+  },
+  {
+    path: "/redux",
+    element: <Redux />,
   },
 ]);
 
